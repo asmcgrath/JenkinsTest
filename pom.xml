@@ -21,6 +21,7 @@
                 <enabled>false</enabled>
             </releases>
         </repository>
+
     </repositories>
     <dependencies>
         <dependency>
