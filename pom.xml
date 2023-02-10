@@ -13,7 +13,15 @@
         <maven.compiler.target>17</maven.compiler.target>
         <jdk.version>17</jdk.version>
     </properties>
-
+    <repositories>
+        <repository>
+            <id>snapshots</id>
+            <url>https://amcgrat9artifactory.jfrog.io/artifactory/Jenkins-integration/</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+        </repository>
+    </repositories>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
